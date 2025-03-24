@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-1", "Aula-1\Aula-1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-2", "Aula-2\Aula-2.csproj", "{89A1AD65-DEF7-4B6F-8A9F-5DFC1D00BECB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula-2", "Aula-2", "{FC95C684-F8EC-4BB3-6473-EC442A8FEDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetWithEF", "Aula-2\AspNetWithEF\AspNetWithEF.csproj", "{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,8 +45,23 @@ Global
 		{89A1AD65-DEF7-4B6F-8A9F-5DFC1D00BECB}.Release|x64.Build.0 = Release|Any CPU
 		{89A1AD65-DEF7-4B6F-8A9F-5DFC1D00BECB}.Release|x86.ActiveCfg = Release|Any CPU
 		{89A1AD65-DEF7-4B6F-8A9F-5DFC1D00BECB}.Release|x86.Build.0 = Release|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Debug|x64.Build.0 = Debug|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Debug|x86.Build.0 = Debug|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Release|x64.ActiveCfg = Release|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Release|x64.Build.0 = Release|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Release|x86.ActiveCfg = Release|Any CPU
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0BFDE81-E3E2-4DB3-A6F1-7F4B03385B78} = {FC95C684-F8EC-4BB3-6473-EC442A8FEDBE}
 	EndGlobalSection
 EndGlobal
