@@ -2,17 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Aula_3.Data; // Adicionando referência para o DbContext
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using AspNetWithEF.Database;
 
-namespace AspNetWithEF
+namespace Aula_3
 {
-    public class Executar
+    public class Program
     {
         public static void Main(string[] args)
         {
@@ -37,6 +36,9 @@ namespace AspNetWithEF
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.Run();
         }
     }
