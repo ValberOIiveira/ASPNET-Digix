@@ -25,6 +25,18 @@ namespace Aula_3.Controllers
             return await _context.Usuarios.ToListAsync();
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> Get(int id)
+        {
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+            return usuario;
+        }
+
+
         [HttpPost]
         public async Task<ActionResult<Usuario>> Post([FromBody] Usuario usuario)
         {
